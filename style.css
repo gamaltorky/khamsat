@@ -1,0 +1,427 @@
+body{
+    background-color: aliceblue;
+}
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    direction: rtl;
+    background-color: #3c3e3e;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+/* start nav right */
+
+.right{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    height: 60px;
+    align-items: center;
+    padding-right: 70px;
+
+}
+
+
+.right li{
+    padding: 20px;
+}
+
+.menu{
+    color: white;
+    font-size: 30px;
+}
+
+.five{
+    width: 150px;
+
+}
+
+.word{
+    color: white;
+}
+
+.menu:hover{
+    background-color: #dddddd41;
+}
+.word:hover{
+    background-color: #dddddd41;
+}
+
+/* end nav right */
+/* start nav left */
+.left{
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    height: 60px;
+    align-items: center;
+    padding-left: 70px;
+
+}
+
+.left li{
+    padding: 20px;
+}
+
+.search{
+    font-size: 20px;
+    color: white;
+}
+
+.search:hover{
+    background-color: #dddddd41;
+}
+.market{
+    color: white;
+}
+.market:hover{
+    background-color: #dddddd41;
+}
+
+.firstbutton{
+    font-size: 15px;
+    color: white;
+    background-color: #3c3e3e;
+    border: 1px solid white;
+    padding: 10px 15px;
+}
+
+.firstbutton:hover{
+    background-color: #dddddd41;
+}
+/* end nav left */
+
+/* start the body */
+
+ .parent{
+    background-image: url("first.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.child p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.form{
+    position: relative;
+    direction: rtl;
+    margin-bottom: 40px;
+}
+.input{
+    position: relative;
+    width: 700px;
+    height: 70px;
+    border-color: rgba(246, 246, 246, 0.411);
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+input:focus{
+    border-color: rgba(9, 136, 15, 0.416) ;
+}
+::placeholder{
+    font-size: 18px;
+}
+.sub{
+    position: absolute;
+    width: 70px;
+    height: 52px;
+    left: 8px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    background-color:rgba(44, 187, 15, 0.826);
+    border: none;
+}
+.sub:hover{
+    background-color: rgba(37, 155, 45, 0.895);
+}
+
+/*
+h1{
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    font-size: 50px;
+}
+.text{
+    position: absolute;
+    right: 550px;
+    top: 350px;
+
+    font-size: 25px;
+    
+}
+
+.buttonin{
+    position: absolute;
+    width: 300px;
+} */
+
+.header1{
+    text-align: center;
+    margin: 90px 90px 70px 90px;
+    font-size: 25px;
+    color:rgba(44, 187, 15, 0.919);
+}
+
+/* start sec 1 */
+.sec1 {
+    display: flex;
+    height: 200px;
+    margin-right: 60px;
+    margin-left: 60px;
+   background-color: white;
+    z-index: -2;
+    position: relative;
+    
+
+}
+
+.divsec1 {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.divsec1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sec1 .divsec1 h3{
+
+    color: white;
+    font-size: 25px;
+}
+
+/* end secc 1 */
+
+/* start sec2 */
+
+.sec2 {
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    margin-top: 80px;
+    height: 30px;
+    align-items: center;
+}
+
+.p{
+    font-size: 25px;
+}
+
+.showbutt {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: 1px solid rgba(19, 157, 19, 0.936);
+    color: rgba(19, 157, 19, 0.936);
+}
+
+.showbutt:hover{
+    color: white;
+    background-color: rgba(37, 155, 45, 0.895);
+}
+/* end sec2 */
+/* sttart sec3 */
+
+.sec3{
+    direction: rtl;
+    display: flex;
+    margin-right: 45px; 
+     margin-left: 55px;
+    /* margin: 60px; */
+    /* background-color: aqua; */
+}
+.sec3 .divsec3 img{
+width: 335px;
+}
+
+.divsec3{
+    /* width: 300px; */
+    margin: 10px;
+}
+
+.sec3 i{
+    color: rgba(255, 217, 0, 0.784);
+}
+.sec3 h4 {
+    margin: 10px 0;
+}
+.sec3 p{margin: 10px 0;}
+/* end sec3 */
+
+/* سجل مجانا*/
+ .sign{
+    height: 250px;
+    background-color:  #3c3e3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .sign h1{
+    color: white;
+ }
+ .sign button{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(43, 187, 15, 0.796);
+ }
+ .sign button:hover{
+    background-color: rgba(44, 187, 15, 0.567);
+ }
+/* خلص التسجيل */
+
+/* start sec4 */
+.sec4{
+    display: flex;
+    height: 300px;
+    direction: rtl;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 120px; */
+    background-color: white;
+}
+.list{
+    list-style-type: none; 
+}
+span{
+    font-size: 25px;   
+}
+.list li{
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(44, 187, 15, 0.919);
+}
+
+.divv{
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    margin-bottom: 20px;
+}
+.facebook{
+    margin-bottom: 20px;
+}
+.facebook i{
+    font-size: 35px;
+    padding: 5px;
+}
+.facebook .face1{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.695);
+}
+.facebook .twitter{
+    text-decoration: none;
+    color: rgba(39, 185, 185, 0.875);
+    margin-bottom: 20px;
+}
+.visa{
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px 0;
+   
+}
+/* end sec4 */
+/* start sec5 */
+.sec5{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(194, 196, 196);
+    
+}
+.divsec5{
+margin-right: 20px;
+}
+.ga {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.to{
+    margin-left: 80px;
+}
+/* end sec5 */
+/* start sec6 */
+.sec6{
+    height: 300px;
+    background-color: white;
+    /* display: flex;
+    flex-direction: column; */
+}
+.div1{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hasob {
+width: 140px;
+margin-top: 80px;
+}
+.me{
+    display: flex;
+    direction: rtl;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+.inside{
+    margin: 10px;
+}
+.inside p{
+    font-size: 15px;
+    color: rgba(72, 72, 72, 0.91);
+}
+.me2{
+    display: flex;
+    direction: rtl;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+.inside h3{
+    font-size: 15px;
+}
